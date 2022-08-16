@@ -6,6 +6,7 @@ This project handles the addition of users to the database.
 ```
 cd backend
 npm install
+php artisan migrate
 php artisan serve
 ```
 
