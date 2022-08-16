@@ -1,0 +1,10 @@
+---
+applications:
+- name: cdatui
+  path: build/
+  memory: 256MB
+  disk_quota: 1024MB
+  random-route: true
+  instances: 1
+  buildpacks: 
+  - staticfile_buildpack

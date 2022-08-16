@@ -1,0 +1,148 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.main-head {
+    height: 150px;
+    background: #FFF;
+
+}
+
+.sidenav {
+    height: 100%;
+    background-color: #000;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-size: contain;
+}
+
+
+.main {
+    padding: 0px 0px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        margin-top: 10%;
+    }
+
+    .register-form {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin-left: 35%;
+    }
+
+    .sidenav {
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form {
+        margin-top: 50%;
+        width: 450px;
+    }
+
+    .register-form {
+        margin-top: 20%;
+    }
+}
+
+.login-main-text {
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2 {
+    font-weight: 300;
+}
+
+.btn-black {
+    background-color: #000 !important;
+    color: #fff;
+}
+
+.label-login {
+    min-width: 120px !important;
+    display: inline-block !important;
+}
+
+.Mbutton {
+    width: 150px !important;
+    margin: 5px !important;
+}
+
+.Mbutton.change {
+    width: 200px !important;
+    margin: 5px !important;
+}
+
+.Mbutton.res {
+    width: 150px !important;
+    margin: 5px !important;
+    background-color: darkolivegreen !important;
+    color: white;
+}
+
+.wh-50 {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.wh-100 {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-circle {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 500% !important;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.MuiButton-root.btnres {
+    min-width: 1px;
+}
+
+.tableContainer {
+    background-color: #FFF;
+    border-radius: 20px;
+    height: 360px;
+    padding: 0 10px 10px 10px;
+    overflow: scroll;
+}
+
+Table thead {
+    background-color: #1f82c7;
+    color: #FFF;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 0 0 0;
+}
+
+.dark {
+    background-color: #222;
+    color: #FFF;
+}
